@@ -2,6 +2,7 @@
 
 namespace Partials
 {
+    // 1/2 of the partials
     public partial class CoOrds
     {
         private int x;
@@ -13,7 +14,8 @@ namespace Partials
             this.y = y;
         }
     }
-
+    
+    // 2/2 of the partials. These two are all that are needed to create a class with partials.
     public partial class CoOrds
     {
         public void PrintCoOrds()
